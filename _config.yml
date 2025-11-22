@@ -1,12 +1,42 @@
-# Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: "KMK4729 | SSAFY Embedded · Computer Vision"
+first_name: Andy
+last_name: Mion
+description: "컴퓨터 비전·임베디드·로봇·AI·실시간 데이터 전문가 포트폴리오"
+footer_text: "Powered by Jekyll with Creative Theme. <br>Contact: <a href='mailto:kmk4729@naver.com'>kmk4729@naver.com</a>"
+lang: "ko"
+icon: "🤖"
 
-twitter_username:
-github_username:
+url: "https://kmk4729.github.io"
+baseurl: ""
 
-# Build settings
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+enable_darkmode: true
+enable_math: true
+
+blog_name: "KMK4729 Blog"
+blog_description: "알고리즘·프로젝트·실험·리뷰 기록"
+permalink: /blog/:year/:title/
+pagination:
+  enabled: true
+
+collections:
+  projects:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives-v2
+  - jemoji
+
 markdown: kramdown
+highlighter: rouge
+
+imagemagick:
+  enabled: true
+  widths: [480, 800, 1400]
+  input_directories: [assets/img/]
+
+exclude: ["bin/", "README.md", "LICENSE"]
