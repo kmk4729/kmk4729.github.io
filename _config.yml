@@ -20,17 +20,9 @@ enable_math: true
 blog_name: "KMK4729 Blog"
 blog_description: "알고리즘·프로젝트·실험·리뷰 기록"
 permalink: /blog/:year/:title/
-pagination:
-  enabled: true
-
-collections:
-  projects:
-    output: true
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-archives-v2
   - jemoji
   - jekyll-github-metadata
 
