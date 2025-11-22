@@ -30,6 +30,10 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives-v2
   - jemoji
+  - jekyll-github-metadata
+
+repository: kmk4729/kmk4729.github.io
+
 
 markdown: kramdown
 highlighter: rouge
