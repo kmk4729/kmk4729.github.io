@@ -18,4 +18,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
+kramdown:
+  input: GFM
+
 exclude: ["bin/", "README.md", "LICENSE", "vendor/"]
