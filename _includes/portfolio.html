@@ -1,24 +1,90 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-            {% assign projects = site.github.public_repositories | where: "fork", false | sort: "stargazers_count" | reverse %}
-            {% for project in projects limit:6 %}
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ project.html_url }}" class="portfolio-box" target="_blank">
-                    <img src="img/portfolio/{{ forloop.index }}.jpg" class="img-responsive" alt="{{ project.name }}">
+                <a href="https://github.com/kmk4729/OndeviceAI_Raspberry" class="portfolio-box" target="_blank">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                {{ project.language }}
+                                <i class="fa fa-github"></i> GitHub
                             </div>
                             <div class="project-name">
-                                {{ project.name }}
+                                On-device AI Raspberry
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
-            {% endfor %}
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://github.com/kmk4729/Pointcloud_Cube_Solver" class="portfolio-box" target="_blank">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                <i class="fa fa-github"></i> GitHub
+                            </div>
+                            <div class="project-name">
+                                Pointcloud Cube Solver
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://github.com/kmk4729/Finger_Vision_Board" class="portfolio-box" target="_blank">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                <i class="fa fa-github"></i> GitHub
+                            </div>
+                            <div class="project-name">
+                                Finger Vision Board
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://github.com/kmk4729/Extinguisher_Detection_Gazebo" class="portfolio-box" target="_blank">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                <i class="fa fa-github"></i> GitHub
+                            </div>
+                            <div class="project-name">
+                                Extinguisher Detection Gazebo
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://github.com/kmk4729/Card_Detection_Yolo" class="portfolio-box" target="_blank">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                <i class="fa fa-github"></i> GitHub
+                            </div>
+                            <div class="project-name">
+                                Card Detection Yolo
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="https://www.notion.so/kmk-e0587224fa5a4950aee5786e72a56405?source=copy_link" class="portfolio-box" target="_blank">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                <i class="fa fa-external-link"></i> Notion
+                            </div>
+                            <div class="project-name">
+                                Portfolio & Resume
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
