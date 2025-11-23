@@ -1,47 +1,21 @@
-title: "KMK4729 | SSAFY Embedded · Computer Vision"
-first_name: Andy
-last_name: Mion
-description: "컴퓨터 비전·임베디드·로봇·AI·실시간 데이터 전문가 포트폴리오"
-email: "kmk4729@naver.com"
-github_username: "kmk4729"
-footer_text: "Powered by Jekyll with Creative Theme. <br>Contact: <a href='mailto:kmk4729@naver.com'>kmk4729@naver.com</a>"
-lang: "ko"
-icon: "🤖"
-
+title: "KMK4729"
+description: "SSAFY Embedded · Computer Vision"
 url: "https://kmk4729.github.io"
 baseurl: ""
+repository: kmk4729/kmk4729.github.io
+github_username: "kmk4729"
+email: "kmk4729@naver.com"
+lang: "ko"
+timezone: Asia/Seoul
 
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-enable_darkmode: true
-enable_math: true
-
-blog_name: "KMK4729 Blog"
-blog_description: "알고리즘·프로젝트·실험·리뷰 기록"
-permalink: /blog/:year/:title/
+theme: jekyll-theme-chirpy
 
 plugins:
   - jekyll-feed
   - jemoji
   - jekyll-github-metadata
 
-repository: kmk4729/kmk4729.github.io
-
-
 markdown: kramdown
 highlighter: rouge
 
-imagemagick:
-  enabled: true
-  widths: [480, 800, 1400]
-  input_directories: [assets/img/]
-
 exclude: ["bin/", "README.md", "LICENSE"]
-
-collections:
-  projects:
-    output: true
-  learning: # New collection for learning posts
-    output: true
-    permalink: /learning/:path/

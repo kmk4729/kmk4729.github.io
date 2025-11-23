@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: About Me
 layout: page
 permalink: /about/
 ---
@@ -18,8 +18,6 @@ permalink: /about/
 - SSAFY 임베디드&로봇 트랙, HYPER Robotics 클럽(부회장), 실시간 프로젝트 주도
 - Raspberry Pi, Turtlebot, Jetson 등 다양한 하드웨어 활용
 - Git, Docker, ROS2, FastAPI, React 등 최신 툴/플랫폼 경험
-
----
 
 ## 성장 목표
 
