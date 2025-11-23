@@ -8,7 +8,7 @@ email: "kmk4729@naver.com"
 lang: "ko"
 timezone: Asia/Seoul
 
-theme: jekyll-theme-chirpy
+remote_theme: chirpy-theme/jekyll-theme-chirpy
 
 plugins:
   - jekyll-feed
