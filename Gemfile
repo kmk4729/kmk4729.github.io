@@ -1,2 +1,10 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
+
+gem "jekyll", "~> 3.10.0" # Specify Jekyll version
+gem "jekyll-feed"
+gem "jemoji"
+gem "jekyll-github-metadata"
+
+# If you want to use jekyll-paginate or jekyll-archives, add them here
+# gem "jekyll-paginate"
+# gem "jekyll-archives"
