@@ -1,6 +1,4 @@
-source "https://rubygems.org"
+plugins:
+  - jekyll-remote-theme
 
-
-gem "jekyll-feed"
-gem "jemoji"
-gem "jekyll-github-metadata"
+remote_theme: vszhub/not-pure-poole
