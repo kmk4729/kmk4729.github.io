@@ -1,4 +1,6 @@
 source "https://rubygems.org"
-gemspec
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+
+gem "jekyll-feed"
+gem "jemoji"
+gem "jekyll-github-metadata"
