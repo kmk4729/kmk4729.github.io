@@ -1,40 +1,19 @@
 ---
-title: Projects
+title: "Projects"
 layout: page
 permalink: /projects/
 ---
 
-## My Projects
+# 대표 프로젝트
 
-### OndeviceAI_Raspberry
-**Description:** On-device AI-based facial recognition company access camera.
-**Language:** Python
-[View on GitHub](https://github.com/kmk4729/OndeviceAI_Raspberry)
+{% for project in site.projects %}
+## {{ project.title }}
 
----
+**설명**: {{ project.excerpt }}
 
-### Card_Detection_Yolo
-**Description:** Recognizing lost items like cards on a tray moving on a conveyor belt in a school cafeteria's dish return area via camera.
-**Language:** Python
-[View on GitHub](https://github.com/kmk4729/Card_Detection_Yolo)
+**주요 기술:** {{ project.tags | join: ', ' }}
 
----
+[자세히 보기]({{ project.url }})
+{% endfor %}
 
-### Extinguisher_Detection_Gazebo
-**Description:** Developing a mobile robot that detects and tracks fire extinguishers using a Turtlebot Waffle camera and moves in front of them.
-**Language:** Python
-[View on GitHub](https://github.com/kmk4729/Extinguisher_Detection_Gazebo)
-
----
-
-### Finger_Vision_Board
-**Description:** Vision whiteboard that tracks the index finger to draw lines.
-**Language:** Python
-[View on GitHub](https://github.com/kmk4729/Finger_Vision_Board)
-
----
-
-### Pointcloud_Cube_Solver
-**Description:** Processing cube data restored with point cloud, determining colors to obtain cube face information, and developing a cube solving algorithm.
-**Language:** Python
-[View on GitHub](https://github.com/kmk4729/Pointcloud_Cube_Solver)
+(위 반복문은 실제 `_projects/` 폴더 내 md 파일 자동 리스트업)

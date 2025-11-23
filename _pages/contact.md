@@ -1,12 +1,11 @@
 ---
-title: Contact
+title: "Contact"
 layout: page
 permalink: /contact/
 ---
 
-## Contact Me
+## 📬 연락처
 
-Feel free to reach out!
-
-*   **Email:** {{ site.email }}
-*   **GitHub:** [{{ site.github_username }}](https://github.com/{{ site.github_username }})
+- Email: kmk4729@naver.com
+- GitHub: [github.com/kmk4729](https://github.com/kmk4729)
+- LinkedIn: (추가 시 링크)
