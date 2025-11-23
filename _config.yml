@@ -18,4 +18,4 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-exclude: ["bin/", "README.md", "LICENSE"]
+exclude: ["bin/", "README.md", "LICENSE", "vendor/"]
