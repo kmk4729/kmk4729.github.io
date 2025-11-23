@@ -1,4 +1,4 @@
-plugins:
-  - jekyll-remote-theme
+source "https://rubygems.org"
+gemspec
 
-remote_theme: vszhub/not-pure-poole
+gem 'jekyll-compose', group: [:jekyll_plugins]
