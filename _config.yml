@@ -38,3 +38,10 @@ imagemagick:
   input_directories: [assets/img/]
 
 exclude: ["bin/", "README.md", "LICENSE"]
+
+collections:
+  projects:
+    output: true
+  learning: # New collection for learning posts
+    output: true
+    permalink: /learning/:path/
