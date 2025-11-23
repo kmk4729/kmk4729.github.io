@@ -5,5 +5,11 @@
   url: https://twitter.com/vszhub
   icon: fab fa-twitter
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/kmk4729
   icon: fab fa-github
+- title: Notion
+  url: https://www.notion.so/kmk-e0587224fa5a4950aee5786e72a56405?source=copy_link
+  icon: fas fa-sticky-note # Using a generic sticky note icon
+- title: Velog
+  url: https://velog.io/@mk1013/posts
+  icon: fas fa-blog # Using a generic blog icon
